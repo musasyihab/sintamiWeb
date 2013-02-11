@@ -1,0 +1,131 @@
+h1,h2,h3,h4,h5,h6,p,label,a,td,tr,th,thead{
+	font-family: "Trebuchet MS";
+}
+
+.header h2{
+	margin-bottom:0px;
+	color:#2BA6CB;
+}
+.header h5{
+	margin-top: 0px;
+}
+
+.sidebar{
+	border-right: 1px solid #abdced;
+	min-height:400px;
+}
+
+.sidebar h5{
+	margin-top:0px;
+	margin-bottom:0px;
+	color:white;
+	background: #226699;
+	padding:5px;
+}
+
+.sidebar .side-nav{
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+.sidebar .side-nav li{
+	font-size:12px;
+	background: #2BA6CB;
+	margin-bottom:0px;
+	padding:5px;
+	border-bottom: 1px solid #2284A1;
+	
+	-webkit-transition: background-color 0.15s ease-in-out;
+	-moz-transition: background-color 0.15s ease-in-out;
+	-o-transition: background-color 0.15s ease-in-out;
+	transition: background-color 0.15s ease-in-out;
+}
+
+.sidebar .side-nav li:hover{
+	background: #2284A1;
+}
+
+.sidebar .side-nav li a{
+	color:white;
+	font-weight: bold;
+}
+
+.sidebar .side-nav .active{
+	background: #EEEEEE;
+}
+
+.sidebar .side-nav .active:hover{
+	background: #EEEEEE;
+}
+
+.form-title{
+	color: #2BA6CB;
+	font-weight:bold;
+	border-bottom: 1px solid #abdced;
+	padding-bottom: 10px;
+	margin-bottom:20px;
+}
+
+.form select{
+	background: #2BA6CB;
+	border: 1px solid #1E728C;
+	color:white;
+	font-weight: bold;
+	height:30px;
+	width:27%;
+}
+
+.form option{
+	background: white;
+	color: #1a6f8b;
+	font-weight: normal;
+}
+
+.form option:hover{
+	background-color: gray;
+}
+
+.form .right{
+	color: #2BA6CB;
+	font-weight: bold;
+}
+
+.error-message{
+	display:none;
+}
+
+.table{
+	background:#D7ECFA;
+}
+
+.table thead, .table tfoot{
+	background: #349FD1;
+}
+.table thead th{
+	color:white;
+}
+
+.table tr{
+	-webkit-transition: background-color 0.15s ease-in-out;
+	-moz-transition: background-color 0.15s ease-in-out;
+	-o-transition: background-color 0.15s ease-in-out;
+	transition: background-color 0.15s ease-in-out;
+	
+	cursor:pointer;
+}
+
+.table tbody tr:hover{
+	background: white;
+}
+
+.table td{
+	color: #0A4A7C;
+}
+
+.table tbody tr:nth-child(even){
+	background: #9BD8FA;
+}
+
+.table tbody tr:nth-child(even):hover{
+	background: white;
+}
